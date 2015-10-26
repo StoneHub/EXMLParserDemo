@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECCB2B81BDC71BB00FB75F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCB2B71BDC71BB00FB75F2 /* AppDelegate.swift */; };
+		8ECCB2BA1BDC71BB00FB75F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCB2B91BDC71BB00FB75F2 /* ViewController.swift */; };
+		8ECCB2BD1BDC71BB00FB75F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2BB1BDC71BB00FB75F2 /* Main.storyboard */; };
+		8ECCB2BF1BDC71BB00FB75F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2BE1BDC71BB00FB75F2 /* Assets.xcassets */; };
+		8ECCB2C21BDC71BB00FB75F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2C01BDC71BB00FB75F2 /* LaunchScreen.storyboard */; };
+		8ECCB2CD1BDC71BB00FB75F2 /* EXMLParserDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCB2CC1BDC71BB00FB75F2 /* EXMLParserDemoTests.swift */; };
+		8ECCB2D81BDC734900FB75F2 /* EXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECCB2D71BDC734900FB75F2 /* EXMLParser.framework */; };
+		8ECCB30A1BDC739900FB75F2 /* iTunesMetadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2DB1BDC739900FB75F2 /* iTunesMetadata.plist */; settings = {ASSET_TAGS = (); }; };
+		8ECCB30B1BDC739900FB75F2 /* container.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2DD1BDC739900FB75F2 /* container.xml */; settings = {ASSET_TAGS = (); }; };
+		8ECCB30C1BDC739900FB75F2 /* mimetype in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2DE1BDC739900FB75F2 /* mimetype */; settings = {ASSET_TAGS = (); }; };
+		8ECCB30D1BDC739900FB75F2 /* Naip_9780307776587_epub_ncx_r1.ncx in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2DF1BDC739900FB75F2 /* Naip_9780307776587_epub_ncx_r1.ncx */; settings = {ASSET_TAGS = (); }; };
+		8ECCB30E1BDC739900FB75F2 /* Naip_9780307776587_epub_opf_r1.opf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E01BDC739900FB75F2 /* Naip_9780307776587_epub_opf_r1.opf */; settings = {ASSET_TAGS = (); }; };
+		8ECCB30F1BDC739900FB75F2 /* CharisSILB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E31BDC739900FB75F2 /* CharisSILB.ttf */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3101BDC739900FB75F2 /* CharisSILBI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E41BDC739900FB75F2 /* CharisSILBI.ttf */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3111BDC739900FB75F2 /* CharisSILI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E51BDC739900FB75F2 /* CharisSILI.ttf */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3121BDC739900FB75F2 /* CharisSILR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E61BDC739900FB75F2 /* CharisSILR.ttf */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3131BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E81BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3141BDC739900FB75F2 /* Naip_9780307776587_epub_cvt_r1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2E91BDC739900FB75F2 /* Naip_9780307776587_epub_cvt_r1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3151BDC739900FB75F2 /* Naip_9780307776587_epub_L01_r1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2EA1BDC739900FB75F2 /* Naip_9780307776587_epub_L01_r1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3161BDC739900FB75F2 /* Naip_9780307776587_epub_L02_r1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2EB1BDC739900FB75F2 /* Naip_9780307776587_epub_L02_r1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3171BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2EC1BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3181BDC739900FB75F2 /* Naip_9780307776587_epub_adc_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2ED1BDC739900FB75F2 /* Naip_9780307776587_epub_adc_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3191BDC739900FB75F2 /* Naip_9780307776587_epub_ata_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2EE1BDC739900FB75F2 /* Naip_9780307776587_epub_ata_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB31A1BDC739900FB75F2 /* Naip_9780307776587_epub_c01_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2EF1BDC739900FB75F2 /* Naip_9780307776587_epub_c01_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB31B1BDC739900FB75F2 /* Naip_9780307776587_epub_c02_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F01BDC739900FB75F2 /* Naip_9780307776587_epub_c02_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB31C1BDC739900FB75F2 /* Naip_9780307776587_epub_c03_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F11BDC739900FB75F2 /* Naip_9780307776587_epub_c03_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB31D1BDC739900FB75F2 /* Naip_9780307776587_epub_c04_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F21BDC739900FB75F2 /* Naip_9780307776587_epub_c04_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB31E1BDC739900FB75F2 /* Naip_9780307776587_epub_c05_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F31BDC739900FB75F2 /* Naip_9780307776587_epub_c05_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB31F1BDC739900FB75F2 /* Naip_9780307776587_epub_c06_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F41BDC739900FB75F2 /* Naip_9780307776587_epub_c06_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3201BDC739900FB75F2 /* Naip_9780307776587_epub_c07_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F51BDC739900FB75F2 /* Naip_9780307776587_epub_c07_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3211BDC739900FB75F2 /* Naip_9780307776587_epub_c08_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F61BDC739900FB75F2 /* Naip_9780307776587_epub_c08_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3221BDC739900FB75F2 /* Naip_9780307776587_epub_c09_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F71BDC739900FB75F2 /* Naip_9780307776587_epub_c09_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3231BDC739900FB75F2 /* Naip_9780307776587_epub_c10_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F81BDC739900FB75F2 /* Naip_9780307776587_epub_c10_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3241BDC739900FB75F2 /* Naip_9780307776587_epub_c11_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2F91BDC739900FB75F2 /* Naip_9780307776587_epub_c11_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3251BDC739900FB75F2 /* Naip_9780307776587_epub_c12_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2FA1BDC739900FB75F2 /* Naip_9780307776587_epub_c12_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3261BDC739900FB75F2 /* Naip_9780307776587_epub_c13_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2FB1BDC739900FB75F2 /* Naip_9780307776587_epub_c13_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3271BDC739900FB75F2 /* Naip_9780307776587_epub_c14_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2FC1BDC739900FB75F2 /* Naip_9780307776587_epub_c14_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3281BDC739900FB75F2 /* Naip_9780307776587_epub_c15_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2FD1BDC739900FB75F2 /* Naip_9780307776587_epub_c15_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3291BDC739900FB75F2 /* Naip_9780307776587_epub_c16_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2FE1BDC739900FB75F2 /* Naip_9780307776587_epub_c16_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB32A1BDC739900FB75F2 /* Naip_9780307776587_epub_c17_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB2FF1BDC739900FB75F2 /* Naip_9780307776587_epub_c17_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB32B1BDC739900FB75F2 /* Naip_9780307776587_epub_cop_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3001BDC739900FB75F2 /* Naip_9780307776587_epub_cop_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB32C1BDC739900FB75F2 /* Naip_9780307776587_epub_css_r1.css in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3011BDC739900FB75F2 /* Naip_9780307776587_epub_css_r1.css */; settings = {ASSET_TAGS = (); }; };
+		8ECCB32D1BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3021BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB32E1BDC739900FB75F2 /* Naip_9780307776587_epub_p01_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3031BDC739900FB75F2 /* Naip_9780307776587_epub_p01_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB32F1BDC739900FB75F2 /* Naip_9780307776587_epub_p02_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3041BDC739900FB75F2 /* Naip_9780307776587_epub_p02_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3301BDC739900FB75F2 /* Naip_9780307776587_epub_p03_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3051BDC739900FB75F2 /* Naip_9780307776587_epub_p03_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3311BDC739900FB75F2 /* Naip_9780307776587_epub_p04_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3061BDC739900FB75F2 /* Naip_9780307776587_epub_p04_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3321BDC739900FB75F2 /* Naip_9780307776587_epub_toc_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3071BDC739900FB75F2 /* Naip_9780307776587_epub_toc_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3331BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.htm in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3081BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.htm */; settings = {ASSET_TAGS = (); }; };
+		8ECCB3341BDC739900FB75F2 /* page-template.xpgt in Resources */ = {isa = PBXBuildFile; fileRef = 8ECCB3091BDC739900FB75F2 /* page-template.xpgt */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ECCB2C91BDC71BB00FB75F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECCB2AC1BDC71BB00FB75F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECCB2B31BDC71BB00FB75F2;
+			remoteInfo = EXMLParserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ECCB2B41BDC71BB00FB75F2 /* EXMLParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EXMLParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECCB2B71BDC71BB00FB75F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ECCB2B91BDC71BB00FB75F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ECCB2BC1BDC71BB00FB75F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ECCB2BE1BDC71BB00FB75F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ECCB2C11BDC71BB00FB75F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ECCB2C31BDC71BB00FB75F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECCB2C81BDC71BB00FB75F2 /* EXMLParserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EXMLParserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECCB2CC1BDC71BB00FB75F2 /* EXMLParserDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EXMLParserDemoTests.swift; sourceTree = "<group>"; };
+		8ECCB2CE1BDC71BB00FB75F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECCB2D71BDC734900FB75F2 /* EXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EXMLParser.framework; path = Carthage/Build/iOS/EXMLParser.framework; sourceTree = "<group>"; };
+		8ECCB2DB1BDC739900FB75F2 /* iTunesMetadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iTunesMetadata.plist; sourceTree = "<group>"; };
+		8ECCB2DD1BDC739900FB75F2 /* container.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = container.xml; sourceTree = "<group>"; };
+		8ECCB2DE1BDC739900FB75F2 /* mimetype */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mimetype; sourceTree = "<group>"; };
+		8ECCB2DF1BDC739900FB75F2 /* Naip_9780307776587_epub_ncx_r1.ncx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Naip_9780307776587_epub_ncx_r1.ncx; sourceTree = "<group>"; };
+		8ECCB2E01BDC739900FB75F2 /* Naip_9780307776587_epub_opf_r1.opf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Naip_9780307776587_epub_opf_r1.opf; sourceTree = "<group>"; };
+		8ECCB2E31BDC739900FB75F2 /* CharisSILB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILB.ttf; sourceTree = "<group>"; };
+		8ECCB2E41BDC739900FB75F2 /* CharisSILBI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILBI.ttf; sourceTree = "<group>"; };
+		8ECCB2E51BDC739900FB75F2 /* CharisSILI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILI.ttf; sourceTree = "<group>"; };
+		8ECCB2E61BDC739900FB75F2 /* CharisSILR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CharisSILR.ttf; sourceTree = "<group>"; };
+		8ECCB2E81BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naip_9780307776587_epub_cvi_r1.jpg; sourceTree = "<group>"; };
+		8ECCB2E91BDC739900FB75F2 /* Naip_9780307776587_epub_cvt_r1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naip_9780307776587_epub_cvt_r1.jpg; sourceTree = "<group>"; };
+		8ECCB2EA1BDC739900FB75F2 /* Naip_9780307776587_epub_L01_r1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naip_9780307776587_epub_L01_r1.jpg; sourceTree = "<group>"; };
+		8ECCB2EB1BDC739900FB75F2 /* Naip_9780307776587_epub_L02_r1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naip_9780307776587_epub_L02_r1.jpg; sourceTree = "<group>"; };
+		8ECCB2EC1BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Naip_9780307776587_epub_tp_r1.jpg; sourceTree = "<group>"; };
+		8ECCB2ED1BDC739900FB75F2 /* Naip_9780307776587_epub_adc_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_adc_r1.htm; sourceTree = "<group>"; };
+		8ECCB2EE1BDC739900FB75F2 /* Naip_9780307776587_epub_ata_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_ata_r1.htm; sourceTree = "<group>"; };
+		8ECCB2EF1BDC739900FB75F2 /* Naip_9780307776587_epub_c01_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c01_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F01BDC739900FB75F2 /* Naip_9780307776587_epub_c02_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c02_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F11BDC739900FB75F2 /* Naip_9780307776587_epub_c03_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c03_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F21BDC739900FB75F2 /* Naip_9780307776587_epub_c04_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c04_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F31BDC739900FB75F2 /* Naip_9780307776587_epub_c05_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c05_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F41BDC739900FB75F2 /* Naip_9780307776587_epub_c06_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c06_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F51BDC739900FB75F2 /* Naip_9780307776587_epub_c07_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c07_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F61BDC739900FB75F2 /* Naip_9780307776587_epub_c08_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c08_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F71BDC739900FB75F2 /* Naip_9780307776587_epub_c09_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c09_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F81BDC739900FB75F2 /* Naip_9780307776587_epub_c10_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c10_r1.htm; sourceTree = "<group>"; };
+		8ECCB2F91BDC739900FB75F2 /* Naip_9780307776587_epub_c11_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c11_r1.htm; sourceTree = "<group>"; };
+		8ECCB2FA1BDC739900FB75F2 /* Naip_9780307776587_epub_c12_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c12_r1.htm; sourceTree = "<group>"; };
+		8ECCB2FB1BDC739900FB75F2 /* Naip_9780307776587_epub_c13_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c13_r1.htm; sourceTree = "<group>"; };
+		8ECCB2FC1BDC739900FB75F2 /* Naip_9780307776587_epub_c14_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c14_r1.htm; sourceTree = "<group>"; };
+		8ECCB2FD1BDC739900FB75F2 /* Naip_9780307776587_epub_c15_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c15_r1.htm; sourceTree = "<group>"; };
+		8ECCB2FE1BDC739900FB75F2 /* Naip_9780307776587_epub_c16_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c16_r1.htm; sourceTree = "<group>"; };
+		8ECCB2FF1BDC739900FB75F2 /* Naip_9780307776587_epub_c17_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_c17_r1.htm; sourceTree = "<group>"; };
+		8ECCB3001BDC739900FB75F2 /* Naip_9780307776587_epub_cop_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_cop_r1.htm; sourceTree = "<group>"; };
+		8ECCB3011BDC739900FB75F2 /* Naip_9780307776587_epub_css_r1.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Naip_9780307776587_epub_css_r1.css; sourceTree = "<group>"; };
+		8ECCB3021BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_cvi_r1.htm; sourceTree = "<group>"; };
+		8ECCB3031BDC739900FB75F2 /* Naip_9780307776587_epub_p01_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_p01_r1.htm; sourceTree = "<group>"; };
+		8ECCB3041BDC739900FB75F2 /* Naip_9780307776587_epub_p02_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_p02_r1.htm; sourceTree = "<group>"; };
+		8ECCB3051BDC739900FB75F2 /* Naip_9780307776587_epub_p03_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_p03_r1.htm; sourceTree = "<group>"; };
+		8ECCB3061BDC739900FB75F2 /* Naip_9780307776587_epub_p04_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_p04_r1.htm; sourceTree = "<group>"; };
+		8ECCB3071BDC739900FB75F2 /* Naip_9780307776587_epub_toc_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_toc_r1.htm; sourceTree = "<group>"; };
+		8ECCB3081BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Naip_9780307776587_epub_tp_r1.htm; sourceTree = "<group>"; };
+		8ECCB3091BDC739900FB75F2 /* page-template.xpgt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "page-template.xpgt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECCB2B11BDC71BB00FB75F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCB2D81BDC734900FB75F2 /* EXMLParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCB2C51BDC71BB00FB75F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECCB2AB1BDC71BB00FB75F2 = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2D71BDC734900FB75F2 /* EXMLParser.framework */,
+				8ECCB2B61BDC71BB00FB75F2 /* EXMLParserDemo */,
+				8ECCB2CB1BDC71BB00FB75F2 /* EXMLParserDemoTests */,
+				8ECCB2B51BDC71BB00FB75F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECCB2B51BDC71BB00FB75F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2B41BDC71BB00FB75F2 /* EXMLParserDemo.app */,
+				8ECCB2C81BDC71BB00FB75F2 /* EXMLParserDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECCB2B61BDC71BB00FB75F2 /* EXMLParserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2DA1BDC739900FB75F2 /* A Bend in the River - V.S. Naipaul */,
+				8ECCB2B71BDC71BB00FB75F2 /* AppDelegate.swift */,
+				8ECCB2B91BDC71BB00FB75F2 /* ViewController.swift */,
+				8ECCB2BB1BDC71BB00FB75F2 /* Main.storyboard */,
+				8ECCB2BE1BDC71BB00FB75F2 /* Assets.xcassets */,
+				8ECCB2C01BDC71BB00FB75F2 /* LaunchScreen.storyboard */,
+				8ECCB2C31BDC71BB00FB75F2 /* Info.plist */,
+			);
+			path = EXMLParserDemo;
+			sourceTree = "<group>";
+		};
+		8ECCB2CB1BDC71BB00FB75F2 /* EXMLParserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2CC1BDC71BB00FB75F2 /* EXMLParserDemoTests.swift */,
+				8ECCB2CE1BDC71BB00FB75F2 /* Info.plist */,
+			);
+			path = EXMLParserDemoTests;
+			sourceTree = "<group>";
+		};
+		8ECCB2DA1BDC739900FB75F2 /* A Bend in the River - V.S. Naipaul */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2DB1BDC739900FB75F2 /* iTunesMetadata.plist */,
+				8ECCB2DC1BDC739900FB75F2 /* META-INF */,
+				8ECCB2DE1BDC739900FB75F2 /* mimetype */,
+				8ECCB2DF1BDC739900FB75F2 /* Naip_9780307776587_epub_ncx_r1.ncx */,
+				8ECCB2E01BDC739900FB75F2 /* Naip_9780307776587_epub_opf_r1.opf */,
+				8ECCB2E11BDC739900FB75F2 /* OEBPS */,
+			);
+			path = "A Bend in the River - V.S. Naipaul";
+			sourceTree = "<group>";
+		};
+		8ECCB2DC1BDC739900FB75F2 /* META-INF */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2DD1BDC739900FB75F2 /* container.xml */,
+			);
+			path = "META-INF";
+			sourceTree = "<group>";
+		};
+		8ECCB2E11BDC739900FB75F2 /* OEBPS */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2E21BDC739900FB75F2 /* fonts */,
+				8ECCB2E71BDC739900FB75F2 /* images */,
+				8ECCB2ED1BDC739900FB75F2 /* Naip_9780307776587_epub_adc_r1.htm */,
+				8ECCB2EE1BDC739900FB75F2 /* Naip_9780307776587_epub_ata_r1.htm */,
+				8ECCB2EF1BDC739900FB75F2 /* Naip_9780307776587_epub_c01_r1.htm */,
+				8ECCB2F01BDC739900FB75F2 /* Naip_9780307776587_epub_c02_r1.htm */,
+				8ECCB2F11BDC739900FB75F2 /* Naip_9780307776587_epub_c03_r1.htm */,
+				8ECCB2F21BDC739900FB75F2 /* Naip_9780307776587_epub_c04_r1.htm */,
+				8ECCB2F31BDC739900FB75F2 /* Naip_9780307776587_epub_c05_r1.htm */,
+				8ECCB2F41BDC739900FB75F2 /* Naip_9780307776587_epub_c06_r1.htm */,
+				8ECCB2F51BDC739900FB75F2 /* Naip_9780307776587_epub_c07_r1.htm */,
+				8ECCB2F61BDC739900FB75F2 /* Naip_9780307776587_epub_c08_r1.htm */,
+				8ECCB2F71BDC739900FB75F2 /* Naip_9780307776587_epub_c09_r1.htm */,
+				8ECCB2F81BDC739900FB75F2 /* Naip_9780307776587_epub_c10_r1.htm */,
+				8ECCB2F91BDC739900FB75F2 /* Naip_9780307776587_epub_c11_r1.htm */,
+				8ECCB2FA1BDC739900FB75F2 /* Naip_9780307776587_epub_c12_r1.htm */,
+				8ECCB2FB1BDC739900FB75F2 /* Naip_9780307776587_epub_c13_r1.htm */,
+				8ECCB2FC1BDC739900FB75F2 /* Naip_9780307776587_epub_c14_r1.htm */,
+				8ECCB2FD1BDC739900FB75F2 /* Naip_9780307776587_epub_c15_r1.htm */,
+				8ECCB2FE1BDC739900FB75F2 /* Naip_9780307776587_epub_c16_r1.htm */,
+				8ECCB2FF1BDC739900FB75F2 /* Naip_9780307776587_epub_c17_r1.htm */,
+				8ECCB3001BDC739900FB75F2 /* Naip_9780307776587_epub_cop_r1.htm */,
+				8ECCB3011BDC739900FB75F2 /* Naip_9780307776587_epub_css_r1.css */,
+				8ECCB3021BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.htm */,
+				8ECCB3031BDC739900FB75F2 /* Naip_9780307776587_epub_p01_r1.htm */,
+				8ECCB3041BDC739900FB75F2 /* Naip_9780307776587_epub_p02_r1.htm */,
+				8ECCB3051BDC739900FB75F2 /* Naip_9780307776587_epub_p03_r1.htm */,
+				8ECCB3061BDC739900FB75F2 /* Naip_9780307776587_epub_p04_r1.htm */,
+				8ECCB3071BDC739900FB75F2 /* Naip_9780307776587_epub_toc_r1.htm */,
+				8ECCB3081BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.htm */,
+				8ECCB3091BDC739900FB75F2 /* page-template.xpgt */,
+			);
+			path = OEBPS;
+			sourceTree = "<group>";
+		};
+		8ECCB2E21BDC739900FB75F2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2E31BDC739900FB75F2 /* CharisSILB.ttf */,
+				8ECCB2E41BDC739900FB75F2 /* CharisSILBI.ttf */,
+				8ECCB2E51BDC739900FB75F2 /* CharisSILI.ttf */,
+				8ECCB2E61BDC739900FB75F2 /* CharisSILR.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		8ECCB2E71BDC739900FB75F2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8ECCB2E81BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.jpg */,
+				8ECCB2E91BDC739900FB75F2 /* Naip_9780307776587_epub_cvt_r1.jpg */,
+				8ECCB2EA1BDC739900FB75F2 /* Naip_9780307776587_epub_L01_r1.jpg */,
+				8ECCB2EB1BDC739900FB75F2 /* Naip_9780307776587_epub_L02_r1.jpg */,
+				8ECCB2EC1BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECCB2B31BDC71BB00FB75F2 /* EXMLParserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECCB2D11BDC71BB00FB75F2 /* Build configuration list for PBXNativeTarget "EXMLParserDemo" */;
+			buildPhases = (
+				8ECCB2B01BDC71BB00FB75F2 /* Sources */,
+				8ECCB2B11BDC71BB00FB75F2 /* Frameworks */,
+				8ECCB2B21BDC71BB00FB75F2 /* Resources */,
+				8ECCB2D91BDC735800FB75F2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EXMLParserDemo;
+			productName = EXMLParserDemo;
+			productReference = 8ECCB2B41BDC71BB00FB75F2 /* EXMLParserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ECCB2C71BDC71BB00FB75F2 /* EXMLParserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECCB2D41BDC71BB00FB75F2 /* Build configuration list for PBXNativeTarget "EXMLParserDemoTests" */;
+			buildPhases = (
+				8ECCB2C41BDC71BB00FB75F2 /* Sources */,
+				8ECCB2C51BDC71BB00FB75F2 /* Frameworks */,
+				8ECCB2C61BDC71BB00FB75F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECCB2CA1BDC71BB00FB75F2 /* PBXTargetDependency */,
+			);
+			name = EXMLParserDemoTests;
+			productName = EXMLParserDemoTests;
+			productReference = 8ECCB2C81BDC71BB00FB75F2 /* EXMLParserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECCB2AC1BDC71BB00FB75F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Stone;
+				TargetAttributes = {
+					8ECCB2B31BDC71BB00FB75F2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G5P97MTSW8;
+					};
+					8ECCB2C71BDC71BB00FB75F2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = G5P97MTSW8;
+						TestTargetID = 8ECCB2B31BDC71BB00FB75F2;
+					};
+				};
+			};
+			buildConfigurationList = 8ECCB2AF1BDC71BB00FB75F2 /* Build configuration list for PBXProject "EXMLParserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECCB2AB1BDC71BB00FB75F2;
+			productRefGroup = 8ECCB2B51BDC71BB00FB75F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECCB2B31BDC71BB00FB75F2 /* EXMLParserDemo */,
+				8ECCB2C71BDC71BB00FB75F2 /* EXMLParserDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECCB2B21BDC71BB00FB75F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCB31B1BDC739900FB75F2 /* Naip_9780307776587_epub_c02_r1.htm in Resources */,
+				8ECCB3281BDC739900FB75F2 /* Naip_9780307776587_epub_c15_r1.htm in Resources */,
+				8ECCB3261BDC739900FB75F2 /* Naip_9780307776587_epub_c13_r1.htm in Resources */,
+				8ECCB3301BDC739900FB75F2 /* Naip_9780307776587_epub_p03_r1.htm in Resources */,
+				8ECCB32E1BDC739900FB75F2 /* Naip_9780307776587_epub_p01_r1.htm in Resources */,
+				8ECCB32C1BDC739900FB75F2 /* Naip_9780307776587_epub_css_r1.css in Resources */,
+				8ECCB3101BDC739900FB75F2 /* CharisSILBI.ttf in Resources */,
+				8ECCB3251BDC739900FB75F2 /* Naip_9780307776587_epub_c12_r1.htm in Resources */,
+				8ECCB2C21BDC71BB00FB75F2 /* LaunchScreen.storyboard in Resources */,
+				8ECCB2BF1BDC71BB00FB75F2 /* Assets.xcassets in Resources */,
+				8ECCB2BD1BDC71BB00FB75F2 /* Main.storyboard in Resources */,
+				8ECCB3331BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.htm in Resources */,
+				8ECCB30E1BDC739900FB75F2 /* Naip_9780307776587_epub_opf_r1.opf in Resources */,
+				8ECCB31E1BDC739900FB75F2 /* Naip_9780307776587_epub_c05_r1.htm in Resources */,
+				8ECCB3141BDC739900FB75F2 /* Naip_9780307776587_epub_cvt_r1.jpg in Resources */,
+				8ECCB30F1BDC739900FB75F2 /* CharisSILB.ttf in Resources */,
+				8ECCB3171BDC739900FB75F2 /* Naip_9780307776587_epub_tp_r1.jpg in Resources */,
+				8ECCB3151BDC739900FB75F2 /* Naip_9780307776587_epub_L01_r1.jpg in Resources */,
+				8ECCB3191BDC739900FB75F2 /* Naip_9780307776587_epub_ata_r1.htm in Resources */,
+				8ECCB3201BDC739900FB75F2 /* Naip_9780307776587_epub_c07_r1.htm in Resources */,
+				8ECCB32B1BDC739900FB75F2 /* Naip_9780307776587_epub_cop_r1.htm in Resources */,
+				8ECCB3341BDC739900FB75F2 /* page-template.xpgt in Resources */,
+				8ECCB3311BDC739900FB75F2 /* Naip_9780307776587_epub_p04_r1.htm in Resources */,
+				8ECCB3271BDC739900FB75F2 /* Naip_9780307776587_epub_c14_r1.htm in Resources */,
+				8ECCB31D1BDC739900FB75F2 /* Naip_9780307776587_epub_c04_r1.htm in Resources */,
+				8ECCB3221BDC739900FB75F2 /* Naip_9780307776587_epub_c09_r1.htm in Resources */,
+				8ECCB3241BDC739900FB75F2 /* Naip_9780307776587_epub_c11_r1.htm in Resources */,
+				8ECCB3291BDC739900FB75F2 /* Naip_9780307776587_epub_c16_r1.htm in Resources */,
+				8ECCB32F1BDC739900FB75F2 /* Naip_9780307776587_epub_p02_r1.htm in Resources */,
+				8ECCB32A1BDC739900FB75F2 /* Naip_9780307776587_epub_c17_r1.htm in Resources */,
+				8ECCB31A1BDC739900FB75F2 /* Naip_9780307776587_epub_c01_r1.htm in Resources */,
+				8ECCB3121BDC739900FB75F2 /* CharisSILR.ttf in Resources */,
+				8ECCB3181BDC739900FB75F2 /* Naip_9780307776587_epub_adc_r1.htm in Resources */,
+				8ECCB3131BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.jpg in Resources */,
+				8ECCB3321BDC739900FB75F2 /* Naip_9780307776587_epub_toc_r1.htm in Resources */,
+				8ECCB30B1BDC739900FB75F2 /* container.xml in Resources */,
+				8ECCB30C1BDC739900FB75F2 /* mimetype in Resources */,
+				8ECCB32D1BDC739900FB75F2 /* Naip_9780307776587_epub_cvi_r1.htm in Resources */,
+				8ECCB3231BDC739900FB75F2 /* Naip_9780307776587_epub_c10_r1.htm in Resources */,
+				8ECCB3161BDC739900FB75F2 /* Naip_9780307776587_epub_L02_r1.jpg in Resources */,
+				8ECCB3211BDC739900FB75F2 /* Naip_9780307776587_epub_c08_r1.htm in Resources */,
+				8ECCB31F1BDC739900FB75F2 /* Naip_9780307776587_epub_c06_r1.htm in Resources */,
+				8ECCB30D1BDC739900FB75F2 /* Naip_9780307776587_epub_ncx_r1.ncx in Resources */,
+				8ECCB30A1BDC739900FB75F2 /* iTunesMetadata.plist in Resources */,
+				8ECCB31C1BDC739900FB75F2 /* Naip_9780307776587_epub_c03_r1.htm in Resources */,
+				8ECCB3111BDC739900FB75F2 /* CharisSILI.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCB2C61BDC71BB00FB75F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ECCB2D91BDC735800FB75F2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EXMLParser.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECCB2B01BDC71BB00FB75F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCB2BA1BDC71BB00FB75F2 /* ViewController.swift in Sources */,
+				8ECCB2B81BDC71BB00FB75F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECCB2C41BDC71BB00FB75F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECCB2CD1BDC71BB00FB75F2 /* EXMLParserDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ECCB2CA1BDC71BB00FB75F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECCB2B31BDC71BB00FB75F2 /* EXMLParserDemo */;
+			targetProxy = 8ECCB2C91BDC71BB00FB75F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ECCB2BB1BDC71BB00FB75F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECCB2BC1BDC71BB00FB75F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ECCB2C01BDC71BB00FB75F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECCB2C11BDC71BB00FB75F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ECCB2CF1BDC71BB00FB75F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8ECCB2D01BDC71BB00FB75F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECCB2D21BDC71BB00FB75F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EXMLParserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EXMLParserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ECCB2D31BDC71BB00FB75F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EXMLParserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EXMLParserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8ECCB2D51BDC71BB00FB75F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EXMLParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EXMLParserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EXMLParserDemo.app/EXMLParserDemo";
+			};
+			name = Debug;
+		};
+		8ECCB2D61BDC71BB00FB75F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EXMLParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Stone.EXMLParserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EXMLParserDemo.app/EXMLParserDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECCB2AF1BDC71BB00FB75F2 /* Build configuration list for PBXProject "EXMLParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCB2CF1BDC71BB00FB75F2 /* Debug */,
+				8ECCB2D01BDC71BB00FB75F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECCB2D11BDC71BB00FB75F2 /* Build configuration list for PBXNativeTarget "EXMLParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCB2D21BDC71BB00FB75F2 /* Debug */,
+				8ECCB2D31BDC71BB00FB75F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECCB2D41BDC71BB00FB75F2 /* Build configuration list for PBXNativeTarget "EXMLParserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECCB2D51BDC71BB00FB75F2 /* Debug */,
+				8ECCB2D61BDC71BB00FB75F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECCB2AC1BDC71BB00FB75F2 /* Project object */;
+}
